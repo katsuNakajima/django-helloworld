@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+rope = "*"
+autopep8 = "*"
+
+[packages]
+django = "*"
+gunicorn = "*"
+psycopg2 = "*"
+psycopg2-binary = "*"
+pillow = "*"
+
+[requires]
+python_version = "3.6"
